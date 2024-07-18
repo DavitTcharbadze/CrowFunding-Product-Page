@@ -1,0 +1,144 @@
+.riser-wrapper {
+    width: 770px;
+    height: 800px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -170px;
+    .first-section {
+      width: 770px;
+      height: 300px;
+      margin-top: 60px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+  
+      .masterCraft-logo {
+        margin-top: -30px;
+        margin-bottom: 20px;
+      }
+  
+      h1 {
+        font-size: 39px;
+        text-align: center;
+      }
+  
+      h3 {
+        font-size: 22px;
+        color: hsl(0, 0%, 48%);
+        text-align: center;
+        margin-top: 20px;
+      }
+  
+      .button-section {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: 30px;
+        .back-button, .bookmark-button {
+          color: white;
+          width: 250px;
+          height: 70px;
+          border: none;
+          border-radius: 40px;
+          padding: 25px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 20px;
+        }
+  
+        .back-button {
+          background-color: hsl(176, 72%, 28%);
+        }
+  
+        .bookmark-button {
+          background-color: hsl(0, 0%, 74%);
+          display: flex;
+          align-items: center;
+  
+          &.book-marked {
+            background-color: rgb(228, 228, 228);
+  
+            h2 {
+              color: hsl(176, 72%, 28%);
+            }
+          }
+  
+          .select-button {
+            width: 75px;
+            position: absolute;
+            left: 1000px;
+          }
+  
+          .book-title {
+            margin-left: 10px;
+            color: rgb(49, 49, 49);
+          }
+        }
+      }
+    }
+  
+    .second-section {
+      width: 770px;
+      height: 250px;
+      margin-top: 40px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+  
+      .price{
+        font-size: 43px;
+        text-align: center;
+        margin-left: -50px;
+      } 
+      .backer, .days {
+        font-size: 43px;
+        text-align: center;
+        margin-left: -30px;
+      }
+  
+      .price-tag, .backer-tag, .days-tag {
+        font-size: 23px;
+        color: rgb(145, 145, 145);
+        text-align: center;
+      }
+  
+      .first-line, .second-line {
+        width: 3px;
+        background-color: black;
+        opacity: 7%;
+        height: 100px;
+      }
+    }
+  
+    .outter-line {
+        width: 700px;
+        height: 16px;
+        background-color: rgb(209, 209, 209);
+        border-radius: 30px;
+        margin: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 10px;
+        margin-top: -60px;
+        .inner-line {
+          width: 570px;
+          height: 16px;
+          background-color: hsl(165, 100%, 25%) !important;
+          border-radius: 30px;
+          margin-left: -10px;
+        }
+      }
+  }
+  

@@ -1,0 +1,109 @@
+.pledge-wrapper {
+    width: 770px;
+    height: 106vh;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .headline {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  
+  .description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #888888; 
+  }
+  
+  .reward-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .reward-box {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .head-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  
+    h2 {
+      font-weight: bold;
+    }
+  
+    .pledge {
+      color: hsl(176, 72%, 28%);
+    }
+  }
+  
+  .reward-box h3 {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #888888; 
+  }
+  
+  .body-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .left-info {
+      display: flex;
+      align-items: baseline;
+      gap: 5px;
+      h1 {
+        font-weight: 900;
+        font-size: 40px;
+      }
+  
+    }
+  
+    .select-button, .out-button {
+      background-color: hsl(176, 72%, 28%);
+      color: white;
+      border: none;
+      border-radius: 30px;
+      width: 170px;
+      height: 50px;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: hsl(176, 59%, 44%);
+        border: none;
+      }
+    }
+  
+    .out-button {
+      background-color: grey;
+      cursor: not-allowed;
+  
+      &:hover {
+        background-color: grey;
+        color: white;
+        border: none;
+      }
+    }
+  }
+  
